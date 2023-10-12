@@ -1,0 +1,55 @@
+{
+  "name": "НАБОР «ПОСЫЛКА С КОНТРАБАНДОЙ»",
+  "price": 399,
+  "features": [
+    {
+      "id": 1,
+      "name": "Игровое время",
+      "free": "-",
+      "paid": "30 дней",
+      "img": "../../assets/images/feature-clock.png"
+    },
+    {
+      "id": 2,
+      "name": "Запечатанный набор инструментов",
+      "free": "1",
+      "paid": "1",
+      "img": "../../assets/images/feature-tools.png"
+    },
+    {
+      "id": 3,
+      "name": "Хрупкая чистая руна 10-й ступени",
+      "free": "1",
+      "paid": "-",
+      "img": "../../assets/images/feature-rune.png"
+    },
+    {
+      "id": 4,
+      "name": "Большой символ изобилия творца",
+      "free": "10",
+      "paid": "-",
+      "img": "../../assets/images/feature-symbol.png"
+    },
+    {
+      "id": 5,
+      "name": "Мана-батарея",
+      "free": "-",
+      "paid": "20",
+      "img": "../../assets/images/feature-mana-battery.png"
+    },
+    {
+      "id": 6,
+      "name": "Модуль памяти",
+      "free": "-",
+      "paid": "10",
+      "img": "../../assets/images/feature-memory-module.png"
+    },
+    {
+      "id": 7,
+      "name": "Помощник Вито",
+      "free": "1",
+      "paid": "1",
+      "img": "../../assets/images/feature-vito.png"
+    }
+  ]
+}

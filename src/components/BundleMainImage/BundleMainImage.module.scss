@@ -1,0 +1,26 @@
+.wrapper {
+  width: 40%;
+  position: relative;
+  background-image: url('../../assets/images/bundle-info-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &::before {
+    content: '';
+    background-image: radial-gradient(50% 50% at 50% 50%, #416df4, #000);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+  }
+
+  &__image {
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+  }
+}

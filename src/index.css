@@ -1,0 +1,19 @@
+@import url('./vendor/normalize.css');
+@import url('./styles/_variables.scss');
+/* Roboto condensed сработал только при прямом импорте в head в index.html */
+/* @import url('./styles/fonts.css'); */
+
+body {
+  background-color: var(--black-background);
+}
+
+#root {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  background-color: var(--black-background);
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}

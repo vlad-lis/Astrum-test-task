@@ -1,0 +1,37 @@
+.buybox {
+  display: flex;
+  position: relative;
+
+  &__image {
+    object-fit: contain;
+  }
+
+  &__btnWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 47%;
+    left: 42%;
+  }
+
+  &__price {
+    margin: 0;
+    color: var(--white-font);
+    font: var(--font-p-50-100-400);
+    text-align: left;
+  }
+
+  &__btn {
+    padding: 0;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--yellow-button);
+    width: 180px;
+    height: 40px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
