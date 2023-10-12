@@ -1,9 +1,9 @@
 import { ReactElement } from 'react';
 import styles from './Banner.module.scss';
-import femaleCostume from '../../assets/images/mafia-costume-female.png';
-import maleCostume from '../../assets/images/mafia-costume-male.png';
-import logo from '../../assets/images/logo.png';
-import boxes from '../../assets/images/boxes.png';
+import femaleCostume from '../../../public/images/mafia-costume-female.png';
+import maleCostume from '../../../public/images/mafia-costume-male.png';
+import logo from '../../../public/images/logo.png';
+import boxes from '../../../public/images/boxes.png';
 import * as staticData from '../../utils/static/banner.json';
 
 const Banner = (): ReactElement => {

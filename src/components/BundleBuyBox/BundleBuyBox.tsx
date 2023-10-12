@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import styles from './BundleBuyBox.module.scss';
-import box from '../../assets/images/bundle-box.png';
+import box from '../../../public/images/bundle-box.png';
 
 interface IBundleBuyBoxProps {
   price: number;

@@ -1,6 +1,7 @@
 .buybox {
   display: flex;
   position: relative;
+  z-index: 3;
 
   &__image {
     object-fit: contain;

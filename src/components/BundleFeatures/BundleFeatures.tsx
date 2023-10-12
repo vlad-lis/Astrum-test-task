@@ -9,13 +9,19 @@ interface IBundleFeaturesProps {
 
 const BundleFeatures = ({ features }: IBundleFeaturesProps): ReactElement => {
   return (
-    <ul className={styles.features}>
-      {features.map((feature) => (
-        <li key={feature.id}>
-          <BundleFeature feature={feature} />
-        </li>
-      ))}
-    </ul>
+    <div className={styles.featuresTable}>
+      <div className={styles.featuresTable__columns}>
+        <p className={styles.featuresTable__column}>Бесплатные сервера</p>
+        <p className={styles.featuresTable__column}>Подписочный сервер</p>
+      </div>
+      <ul className={styles.features}>
+        {features.map((feature) => (
+          <li key={feature.id}>
+            <BundleFeature feature={feature} />
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 

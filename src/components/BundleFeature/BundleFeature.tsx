@@ -12,11 +12,7 @@ const BundleFeature = ({ feature }: IBundleFeatureProps): ReactElement => {
   return (
     <div className={styles.feature}>
       <div className={styles.feature__title}>
-        <img
-          className={styles.feature__img}
-          src={img.toString()}
-          alt='feature pic'
-        />
+        <img className={styles.feature__img} src={img} alt='feature pic' />
         <p className={styles.feature__name}>{name}</p>
       </div>
       <div className={styles.feature__columns}>

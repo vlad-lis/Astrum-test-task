@@ -9,7 +9,8 @@
       rgba(0, 0, 0, 0.3) 75%,
       rgba(0, 0, 0, 0.7) 100%
     ),
-    url('../../assets/images/banner-background.png');
+    url('/images/banner-background.png');
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -17,7 +18,7 @@
 
   &::before {
     content: '';
-    background-image: url('../../assets/images/banner-bottom-glow.png');
+    background-image: url('/images/banner-bottom-glow.png');
     background-size: cover;
     position: absolute;
     bottom: 0;
@@ -29,7 +30,7 @@
 
   &__costume {
     height: 100%;
-    object-fit: contain;
+    background-size: cover;
     z-index: 1;
   }
 
@@ -48,7 +49,7 @@
 
     &::before {
       content: '';
-      background-image: url('../../assets/images/banner-center-glow.png');
+      background-image: url('/images/banner-center-glow.png');
       background-size: cover;
       position: absolute;
       top: 50%;
@@ -69,7 +70,7 @@
   &__boxes {
     max-width: 766px;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
     position: absolute;
     top: 57%;
     left: 48%;
